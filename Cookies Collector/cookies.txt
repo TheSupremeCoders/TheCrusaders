@@ -1,0 +1,1 @@
+[{'domain': '.web.whatsapp.com', 'expiry': 1685711064, 'httpOnly': True, 'name': 'wa_beta_version', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'production%2F1683748333%2F2.2320.10'}]

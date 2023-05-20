@@ -1,0 +1,133 @@
+*DAY 40/44 - 12/05/2023*
+
+*Manish Kumar - 8 problems solved - ✅*
+   _Leetcode_ - 6
+ ~ Check if Every Row and Column Contains All Numbers
+ ~ Contains Duplicate II
+ ~ Number of 1 Bits
+ ~ Largest Rectangle in Histogram
+ ~ Second Largest Digit in a String
+ ~ Find the Kth Largest Integer in the Array
+   _Codeforces_ - 2
+ ~ A - Word
+ ~ A - Wrong Subtraction
+-------------------------------
+*Shivam Gupta - 5 problems solved - ✅*
+   _Codeforces_ - 1
+ ~ A - Holidays
+   _Codechef_ - 4
+ ~ REMSUBARR
+ ~ TWOAVG
+ ~ SQUIRREL
+ ~ MINMAXARR
+-------------------------------
+*Prince Sharma - 4 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Arithmetic Subarrays
+   _Codeforces_ - 3
+ ~ A - Fafa and his Company
+ ~ A - Spell Check
+ ~ A - Add Odd or Subtract Even
+-------------------------------
+*Seema - 3 problems solved - ✅*
+   _Codechef_ - 3
+ ~ AIRLINE
+ ~ ATTENDU
+ ~ EPANLNK
+-------------------------------
+*Kanika Bhawsar - 3 problems solved - ✅*
+   _Leetcode_ - 3
+ ~ Number of 1 Bits
+ ~ Separate the Digits in an Array
+ ~ Contains Duplicate
+-------------------------------
+*Abhay - 3 problems solved - ✅*
+   _Leetcode_ - 3
+ ~ Convert the Temperature
+ ~ Reverse String
+ ~ Reverse Only Letters
+-------------------------------
+*Saumya Agrawal - 1 problems solved - ✅*
+   _Codechef_ - 1
+ ~ LAZYCHF
+-------------------------------
+*Sohini Ghosh - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Running Sum of 1d Array
+-------------------------------
+*Shivam Anand Bhushan - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Count Asterisks
+-------------------------------
+*Mahasweta Mondal - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Running Sum of 1d Array
+-------------------------------
+*Neeraj Meena - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Jewels and Stones
+-------------------------------
+*Kanchan Rajpoot - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Merge Sorted Array
+-------------------------------
+*Rohit - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Daily Temperatures
+-------------------------------
+*Achal Singh - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Trapping Rain Water
+-------------------------------
+*Kanchan Kumari - 1 problems solved - ✅*
+   _Codechef_ - 1
+ ~ ACCURACY
+-------------------------------
+*Vikash Yadav - ❌*
+-------------------------------
+*Arnav Gupta - ❌*
+-------------------------------
+*Chahat Gupta - ❌*
+-------------------------------
+*Shreya Chaudhary - ❌*
+-------------------------------
+*Aditya Dubey - ❌*
+-------------------------------
+*Avishkant Patidar - ❌*
+-------------------------------
+*Mohit Aman - ❌*
+-------------------------------
+*Deepankar Singh - ❌*
+-------------------------------
+*Prashant Mishra - ❌*
+-------------------------------
+*Sarthak Gautam - ❌*
+-------------------------------
+*Mayank Agrawal - ❌*
+-------------------------------
+*Swastik Rastogi - ❌*
+-------------------------------
+*Gaurangi Puradkar - ❌*
+-------------------------------
+*Sambedika Jena - ❌*
+-------------------------------
+*Yakshita Acharya - ❌*
+-------------------------------
+*Hima Bindu - ❌*
+-------------------------------
+*Abhishek Kumar - ❌*
+-------------------------------
+*Priyanka Sahu - ❌*
+-------------------------------
+*Barkha Gupta - ❌*
+-------------------------------
+*Ananya Rawat - ❌*
+-------------------------------
+*Priyanka Soni - ❌*
+-------------------------------
+*Aman - ❌*
+-------------------------------
+*Aarti Kachhap - ❌*
+-------------------------------
+*Komal - ❌*
+-------------------------------

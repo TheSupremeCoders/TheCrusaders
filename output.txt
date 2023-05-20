@@ -1,0 +1,15 @@
+*DATE - 18/05/2023*
+
+*Vikash Yadav - 2 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ ~ Find the Score of All Prefixes of an Array
+   _Codechef_ - 1
+ ~ ~ MATCHES
+-------------------------------
+*Shivam Gupta (034) - 2 problems solved - ✅*
+   _Codeforces_ - 2
+ ~ ~ B - Dice Tower
+ ~ ~ A - Chunga-Changa
+-------------------------------
+*Arnav Gupta - ❌*
+-------------------------------
