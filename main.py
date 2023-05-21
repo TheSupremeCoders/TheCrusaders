@@ -271,8 +271,7 @@ except HttpError as error:
     message = None
 '''
 # Define the email message
-# to = ['guptajirock176@gmail.com', 'princesharma2899@gmail.com',  'priyankasahu9350@gmail.com']
-to = ['princesharma2899@gmail.com']
+to = ['guptajirock176@gmail.com', 'princesharma2899@gmail.com',  'priyankasahu9350@gmail.com', 'aar9av@gmail.com']
 bcc = []
 subject = 'DATE: ' + tdy.strftime("%d/%m/%Y") + ' - TheSupremeCoders'
 body = open('output.txt', 'r', encoding='utf-8').read()
