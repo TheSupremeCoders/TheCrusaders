@@ -71,6 +71,8 @@ sheet = client.open('[DSA Group] Inviting More Members - Supreme Coders\' (Respo
 # email_list = sheet.col_values(2)[1:]
 
 def print_problem(platform, problems, f):
+    # extract only the problem name from the problem object
+    problems = set([problem.name for problem in problems])
     if len(problems) != 0:
         f.write(f'{platform} - {len(problems)}\n')
         for problem in problems:
@@ -157,37 +159,55 @@ with open('output.txt', 'w', encoding='utf-8') as f:
         f.write('-------------------------------\n')
 
 # Create the HTML content with inline styles
+# Create the HTML content
 html_content = f'''
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        table {{
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }}
+
+        th, td {{
+            text-align: left;
+            padding: 8px;
+        }}
+
+        tr:nth-child(even) {{
+            background-color: #f2f2f2;
+        }}
+    </style>
 </head>
 <body>
-    <table style="border-collapse: collapse; border-spacing: 0; width: 100%; border: 1px solid #ddd;">
-        <caption><h3 style="text-align: center;">DATE - {tdy.strftime("%d/%m/%Y")}</h3></caption>
-        <tr style="background-color: #f2f2f2;">
-            <th style="text-align: left; padding: 8px;">Name</th>
-            <th style="text-align: left; padding: 8px;">Leetcode Problems</th>
-            <th style="text-align: left; padding: 8px;">Codechef Problems</th>
-            <th style="text-align: left; padding: 8px;">Codeforces Problems</th>
+    <table>
+        <caption><h3>DATE - {tdy.strftime("%d/%m/%Y")}</h3></caption>
+        <tr>
+            <th>Name</th>
+            <th>Leetcode Problems</th>
+            <th>Codechef Problems</th>
+            <th>Codeforces Problems</th>
         </tr>
 '''
 
-# Generate the table rows with inline styles
+# Generate the table rows
 for coder in coders:
     html_content += '<tr>\n'
-    html_content += f'<td style="text-align: left; padding: 8px;">{coder.name}</td>\n'
-    html_content += '<td style="text-align: left; padding: 8px;">\n'
+    html_content += f'<td>{coder.name}</td>\n'
+    html_content += '<td>\n'
     for problem in coder.problems_leetcode:
-        html_content += f'<span style="display: block; color: green;">{problem.html_str()}</span>\n'
+        html_content += f'<span>{problem.html_str()}</span><br>\n'
     html_content += '</td>\n'
-    html_content += '<td style="text-align: left; padding: 8px;">\n'
+    html_content += '<td>\n'
     for problem in coder.problems_codechef:
-        html_content += f'<span style="display: block; color: green;">{problem.html_str()}</span>\n'
+        html_content += f'<span>{problem.html_str()}</span><br>\n'
     html_content += '</td>\n'
-    html_content += '<td style="text-align: left; padding: 8px;">\n'
+    html_content += '<td>\n'
     for problem in coder.problems_codeforces:
-        html_content += f'<span style="display: block; color: green;">{problem.html_str()}</span>\n'
+        html_content += f'<span>{problem.html_str()}</span><br>\n'
     html_content += '</td>\n'
     html_content += '</tr>\n'
 
@@ -196,7 +216,7 @@ html_content += '''
 </body>
 </html>
 '''
-with open('output.html', 'w', encoding='utf-8') as f:
+with open('index.html', 'w', encoding='utf-8') as f:
     f.write(html_content)
 
 
@@ -251,7 +271,8 @@ except HttpError as error:
     message = None
 '''
 # Define the email message
-to = ['guptajirock176@gmail.com', 'princesharma2899@gmail.com',  'priyankasahu9350@gmail.com']
+# to = ['guptajirock176@gmail.com', 'princesharma2899@gmail.com',  'priyankasahu9350@gmail.com']
+to = ['princesharma2899@gmail.com']
 bcc = []
 subject = 'DATE: ' + tdy.strftime("%d/%m/%Y") + ' - TheSupremeCoders'
 body = open('output.txt', 'r', encoding='utf-8').read()
