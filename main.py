@@ -70,13 +70,17 @@ sheet = client.open('[DSA Group] Inviting More Members - Supreme Coders\' (Respo
 # get the column named as "Email Address" into a list
 # email_list = sheet.col_values(2)[1:]
 
+def unique_problems_set(problems): 
+    return set([problem.name for problem in problems])
+
 def print_problem(platform, problems, f):
     # extract only the problem name from the problem object
-    problems = set([problem.name for problem in problems])
+    problems = unique_problems_set(problems)
     if len(problems) != 0:
         f.write(f'{platform} - {len(problems)}\n')
         for problem in problems:
             f.write(f' ~ {problem}\n')
+
 
 class Coder:
     leetcode_id = ""
@@ -101,7 +105,7 @@ class Coder:
         if self.leetcode_id != "" and re.match(r"https:\/\/leetcode\.com\/[a-zA-Z0-9_]+\/?", self.leetcode_id):
             print(f'Fetching Leetcode problems for {self.name}...')
             self.problems_leetcode = leetcode.get_problems_solved(driver, self.leetcode_id)
-            self.total_problems += len(self.problems_leetcode)
+            self.total_problems += len(unique_problems_set( self.problems_leetcode ))
 
         if self.gfg_id != "" and re.match(r"https:\/\/auth\.geeksforgeeks\.org\/user\/[a-zA-Z0-9_]+\/practice\/?", self.gfg_id):
             print(f'Fetching gfg problems for {self.name}...')
@@ -110,12 +114,12 @@ class Coder:
         if self.codechef_id != "" and re.match(r"https:\/\/www\.codechef\.com\/users\/[a-zA-Z0-9_]+\/?", self.codechef_id):
             print(f'Fetching codechef problems for {self.name}...')
             self.problems_codechef = codechef.get_problems_solved(driver, self.codechef_id)
-            self.total_problems += len(self.problems_codechef)
+            self.total_problems += len(unique_problems_set( self.problems_codechef ))
 
         if self.codeforces_id != "" and re.match(r"https:\/\/codeforces\.com\/profile\/[a-zA-Z0-9_]+\/?", self.codeforces_id):
             print(f'Fetching codeforces problems for {self.name}...')
             self.problems_codeforces = codeforces.get_problems_solved(driver, self.codeforces_id)
-            self.total_problems += len(self.problems_codeforces)
+            self.total_problems += len(unique_problems_set( self.problems_codeforces ))
 
 
 # Get all the tuples and create Coder objects
