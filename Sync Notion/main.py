@@ -1,10 +1,13 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import json
+
 
 import requests
 
 # API token and database ID
-integration_token = 'secret_yF378kdYlxCbn9pzTH70s7eXVQ3DqHy6Q8vchQLztv6'
+secret = json.load(open("secret.json"))
+integration_token = secret["notion_token"]
 database_id = '1a1f07a01c2443718ac283ddab53dec9'
 
 # Set up Google Sheets API credentials

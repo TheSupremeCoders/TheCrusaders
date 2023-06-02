@@ -1,15 +1,146 @@
-*DATE - 18/05/2023*
+*DATE - 02/06/2023*
 
-*Vikash Yadav - 2 problems solved - ✅*
+*Barkha Gupta - 10 problems solved - ✅*
    _Leetcode_ - 1
- ~ ~ Find the Score of All Prefixes of an Array
+ ~ Valid Palindrome II
+   _Codechef_ - 9
+ ~ CHSERVE
+ ~ POSPROD
+ ~ PROGLANG
+ ~ MAX1XOR
+ ~ MSNSADM1
+ ~ ADASCOOL
+ ~ ZOOZ
+ ~ DOTIFYPLAY
+ ~ DATATYPE
+-------------------------------
+*Mahasweta Mondal - 7 problems solved - ✅*
+   _Leetcode_ - 7
+ ~ Search a 2D Matrix
+ ~ Pow(x, n)
+ ~ Can Place Flowers
+ ~ Rotate Image
+ ~ Count Primes
+ ~ Search a 2D Matrix II
+ ~ Spiral Matrix
+-------------------------------
+*Shivam Gupta (034) - 5 problems solved - ✅*
+   _Leetcode_ - 5
+ ~ 132 Pattern
+ ~ Maximum Score of a Good Subarray
+ ~ Remove K Digits
+ ~ Generate Parentheses
+ ~ Largest Rectangle in Histogram
+-------------------------------
+*Sohini Ghosh - 4 problems solved - ✅*
+   _Leetcode_ - 4
+ ~ Maximum Subarray
+ ~ Remove All Occurrences of a Substring
+ ~ Third Maximum Number
+ ~ Valid Palindrome
+-------------------------------
+*Mohit Aman - 2 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Distribute Candies
    _Codechef_ - 1
- ~ ~ MATCHES
+ ~ BRACKETS
 -------------------------------
-*Shivam Gupta (034) - 2 problems solved - ✅*
-   _Codeforces_ - 2
- ~ ~ B - Dice Tower
- ~ ~ A - Chunga-Changa
+*Rohit - 2 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Remove Duplicates from Sorted Array
+   _Codechef_ - 1
+ ~ DISTANCECOLO
 -------------------------------
-*Arnav Gupta - ❌*
+*Kanika Bhawsar - 2 problems solved - ✅*
+   _Leetcode_ - 2
+ ~ Design HashMap
+ ~ Count Negative Numbers in a Sorted Matrix
+-------------------------------
+*Manish Kumar - 2 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Find Smallest Letter Greater Than Target
+   _Codechef_ - 1
+ ~ EQUALCOIN
+-------------------------------
+*Arnav Gupta - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ String Compression
+-------------------------------
+*Saumya Agrawal - 1 problems solved - ✅*
+   _Codechef_ - 1
+ ~ BIT2A
+-------------------------------
+*Shreya Chaudhary - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Decode XORed Array
+-------------------------------
+*Kanchan Rajpoot - 1 problems solved - ✅*
+   _Codechef_ - 1
+ ~ AIANALYSE
+-------------------------------
+*Mayank Agrawal - 1 problems solved - ✅*
+   _Codechef_ - 1
+ ~ DOTIFYPLAY
+-------------------------------
+*Gaurangi Puradkar - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Maximum Average Subarray I
+-------------------------------
+*Komal - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Missing Number
+-------------------------------
+*Achal Singh - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Move Zeroes
+-------------------------------
+*Kanchan Kumari - 1 problems solved - ✅*
+   _Codechef_ - 1
+ ~ PARLIAMENT
+-------------------------------
+*Vikash Yadav - ❌*
+-------------------------------
+*Chahat Gupta - ❌*
+-------------------------------
+*Shivam Anand Bhushan - ❌*
+-------------------------------
+*Aditya Dubey - ❌*
+-------------------------------
+*Seema - ❌*
+-------------------------------
+*Avishkant Patidar - ❌*
+-------------------------------
+*Neeraj Meena - ❌*
+-------------------------------
+*Deepankar Singh - ❌*
+-------------------------------
+*Prashant Mishra - ❌*
+-------------------------------
+*Sarthak Gautam - ❌*
+-------------------------------
+*Swastik Rastogi - ❌*
+-------------------------------
+*Sambedika Jena - ❌*
+-------------------------------
+*Yakshita Acharya - ❌*
+-------------------------------
+*Hima Bindu - ❌*
+-------------------------------
+*Abhishek Kumar - ❌*
+-------------------------------
+*Priyanka Sahu - ❌*
+-------------------------------
+*Ananya Rawat - ❌*
+-------------------------------
+*Priyanka Soni - ❌*
+-------------------------------
+*Prince Sharma - ❌*
+-------------------------------
+*Aman - ❌*
+-------------------------------
+*Aarti Kachhap - ❌*
+-------------------------------
+*Abhay - ❌*
+-------------------------------
+*Shivam Gupta (007) - ❌*
 -------------------------------
