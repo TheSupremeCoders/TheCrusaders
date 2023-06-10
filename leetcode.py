@@ -2,9 +2,9 @@ import time
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 import re
-from problem import problem
+from problemClient import Problem
 
-def get_problems_solved(driver, url):
+def get_problems_solved(driver, problem_client, url, scholar_number):
     # Extract the username from the LeetCode ID
     # pattern = r'https://leetcode.com/([^/]+)/?'
     # username = re.search(pattern, self.leetcode_id).group(1)
@@ -22,7 +22,10 @@ def get_problems_solved(driver, url):
         match = re.search(pattern, children[1].text)
         # concatenate the link with the base url
         if match:
-            problems_leetcode.append(problem( i['data-title'], f"https://leetcode.com{i.parent['href']}" ))
+            submission_link = f"https://leetcode.com{i.parent['href']}"
+            problem_link = f"https://leetcode.com/problems/{i['data-title'].lower().replace(' ', '-')}/"
+            submission_id = i.parent['href'].split('/')[-2]
+            problems_leetcode.append(Problem(problem_client,  i['data-title'], problem_link, submission_link, submission_id, 'Leetcode', scholar_number ))
         else:
             break
 

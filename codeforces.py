@@ -1,5 +1,5 @@
 import time
-from problem import problem
+from problemClient import Problem
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
@@ -8,7 +8,7 @@ import datetime
 import re
 import pytz
 
-def get_problems_solved(driver, url):
+def get_problems_solved(driver, problem_client, url, scholar_number):
     # use regular expressions to extract the username
     match = re.search(r"/?profile/(/?\w+/?)", url)
     username = match.group(1).strip("/")
@@ -43,6 +43,14 @@ def get_problems_solved(driver, url):
                 verdict = cols[5].span.get('submissionverdict')
                 if verdict == "OK":
                     problem_code = cols[3].a.text
-                    solved_problems.add(problem(problem_code.strip(), url))
+                    # get the problem link
+                    problem_link = f"https://codeforces.com/{cols[3].a.get('href')}"
+                    # get the submission id
+                    submission_id = cols[0].a.text
+                    # get the submission link by removing problem/B from the problem link and adding submission/submission_id
+                    pattern = r"/problem/[a-zA-Z0-9]+"  # pattern to match
+                    # replace the pattern with submission/submission_id
+                    submission_link = re.sub(pattern, f"/submission/{submission_id}", problem_link)
+                    solved_problems.add(Problem(problem_client, problem_code.strip(), problem_link, submission_link, submission_id, 'Codeforces', scholar_number))
 
     return solved_problems

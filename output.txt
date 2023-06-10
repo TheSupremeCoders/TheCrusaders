@@ -1,110 +1,98 @@
-*DATE - 02/06/2023*
+*DATE - 10/06/2023*
 
-*Barkha Gupta - 10 problems solved - ✅*
+*kanchan kumari - 5 problems solved - ✅*
    _Leetcode_ - 1
- ~ Valid Palindrome II
-   _Codechef_ - 9
- ~ CHSERVE
- ~ POSPROD
- ~ PROGLANG
- ~ MAX1XOR
- ~ MSNSADM1
- ~ ADASCOOL
- ~ ZOOZ
- ~ DOTIFYPLAY
- ~ DATATYPE
--------------------------------
-*Mahasweta Mondal - 7 problems solved - ✅*
-   _Leetcode_ - 7
- ~ Search a 2D Matrix
- ~ Pow(x, n)
- ~ Can Place Flowers
- ~ Rotate Image
- ~ Count Primes
- ~ Search a 2D Matrix II
- ~ Spiral Matrix
--------------------------------
-*Shivam Gupta (034) - 5 problems solved - ✅*
-   _Leetcode_ - 5
- ~ 132 Pattern
- ~ Maximum Score of a Good Subarray
- ~ Remove K Digits
- ~ Generate Parentheses
- ~ Largest Rectangle in Histogram
--------------------------------
-*Sohini Ghosh - 4 problems solved - ✅*
-   _Leetcode_ - 4
- ~ Maximum Subarray
- ~ Remove All Occurrences of a Substring
- ~ Third Maximum Number
  ~ Valid Palindrome
+   _Codechef_ - 4
+ ~ JENGA
+ ~ BIRDFARM
+ ~ MOVIE2X
+ ~ RANKLISTPAGE
 -------------------------------
-*Mohit Aman - 2 problems solved - ✅*
-   _Leetcode_ - 1
- ~ Distribute Candies
+*Saumya Agrawal - 4 problems solved - ✅*
+   _Leetcode_ - 3
+ ~ Find All Numbers Disappeared in an Array
+ ~ Reverse Words in a String III
+ ~ Sqrt(x)
    _Codechef_ - 1
- ~ BRACKETS
+ ~ LUCKYSTR
 -------------------------------
-*Rohit - 2 problems solved - ✅*
+*Manish Kumar - 4 problems solved - ✅*
+   _Leetcode_ - 3
+ ~ Reshape the Matrix
+ ~ Set Matrix Zeroes
+ ~ Arithmetic Subarrays
+   _Codeforces_ - 1
+ ~ A - Multiplication Table
+-------------------------------
+*Prince Sharma - 3 problems solved - ✅*
+   _Codeforces_ - 3
+ ~ D1 - Magic Powder - 1
+ ~ B - Pipeline
+ ~ B - Phoenix and Puzzle
+-------------------------------
+*Priyanka Sahu - 3 problems solved - ✅*
    _Leetcode_ - 1
- ~ Remove Duplicates from Sorted Array
-   _Codechef_ - 1
- ~ DISTANCECOLO
+ ~ Summary Ranges
+   _Codechef_ - 2
+ ~ REMOSET
+ ~ AVGPERM
 -------------------------------
-*Kanika Bhawsar - 2 problems solved - ✅*
+*Prince Sharma - 3 problems solved - ✅*
+   _Codeforces_ - 3
+ ~ D1 - Magic Powder - 1
+ ~ B - Pipeline
+ ~ B - Phoenix and Puzzle
+-------------------------------
+*Deepankar singh - 2 problems solved - ✅*
    _Leetcode_ - 2
- ~ Design HashMap
- ~ Count Negative Numbers in a Sorted Matrix
+ ~ Find Peak Element
+ ~ Majority Element
 -------------------------------
-*Manish Kumar - 2 problems solved - ✅*
-   _Leetcode_ - 1
+*Gaurangi Puradkar - 2 problems solved - ✅*
+   _Leetcode_ - 2
  ~ Find Smallest Letter Greater Than Target
-   _Codechef_ - 1
- ~ EQUALCOIN
+ ~ Find the Student that Will Replace the Chalk
 -------------------------------
-*Arnav Gupta - 1 problems solved - ✅*
+*Sohini Ghosh - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ String Compression
--------------------------------
-*Saumya Agrawal - 1 problems solved - ✅*
-   _Codechef_ - 1
- ~ BIT2A
+ ~ Is Subsequence
 -------------------------------
 *Shreya Chaudhary - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Decode XORed Array
+ ~ Climbing Stairs
 -------------------------------
-*Kanchan Rajpoot - 1 problems solved - ✅*
+*Mahasweta Mondal - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Happy Number
+-------------------------------
+*MOHIT AMAN - 1 problems solved - ✅*
    _Codechef_ - 1
- ~ AIANALYSE
+ ~ EVALMAS
 -------------------------------
 *Mayank Agrawal - 1 problems solved - ✅*
    _Codechef_ - 1
- ~ DOTIFYPLAY
+ ~ DISTANCECOLO
 -------------------------------
-*Gaurangi Puradkar - 1 problems solved - ✅*
+*Rohit - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Maximum Average Subarray I
+ ~ Best Time to Buy and Sell Stock
 -------------------------------
 *Komal - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Missing Number
--------------------------------
-*Achal Singh - 1 problems solved - ✅*
-   _Leetcode_ - 1
- ~ Move Zeroes
--------------------------------
-*Kanchan Kumari - 1 problems solved - ✅*
-   _Codechef_ - 1
- ~ PARLIAMENT
+ ~ Intersection of Two Arrays II
 -------------------------------
 *Vikash Yadav - ❌*
+-------------------------------
+*Shivam Gupta - ❌*
+-------------------------------
+*Arnav Gupta - ❌*
 -------------------------------
 *Chahat Gupta - ❌*
 -------------------------------
 *Shivam Anand Bhushan - ❌*
 -------------------------------
-*Aditya Dubey - ❌*
+*Aditya dubey - ❌*
 -------------------------------
 *Seema - ❌*
 -------------------------------
@@ -112,11 +100,11 @@
 -------------------------------
 *Neeraj Meena - ❌*
 -------------------------------
-*Deepankar Singh - ❌*
+*kanchan rajpoot - ❌*
 -------------------------------
 *Prashant Mishra - ❌*
 -------------------------------
-*Sarthak Gautam - ❌*
+*Sarthak gautam - ❌*
 -------------------------------
 *Swastik Rastogi - ❌*
 -------------------------------
@@ -126,19 +114,21 @@
 -------------------------------
 *Hima Bindu - ❌*
 -------------------------------
+*Kanika bhawsar - ❌*
+-------------------------------
 *Abhishek Kumar - ❌*
 -------------------------------
-*Priyanka Sahu - ❌*
+*Barkha Gupta - ❌*
 -------------------------------
 *Ananya Rawat - ❌*
 -------------------------------
-*Priyanka Soni - ❌*
--------------------------------
-*Prince Sharma - ❌*
+*PRIYANKA SONI - ❌*
 -------------------------------
 *Aman - ❌*
 -------------------------------
 *Aarti Kachhap - ❌*
+-------------------------------
+*Achal Singh - ❌*
 -------------------------------
 *Abhay - ❌*
 -------------------------------
