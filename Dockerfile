@@ -15,8 +15,8 @@ RUN apt-get update && \
 # Set environment variables for MySQL connection
 ENV MYSQL_HOST=172.25.81.163
 ENV MYSQL_PORT=3306
-ENV MYSQL_USER=root
-ENV MYSQL_PASSWORD=root
+ENV MYSQL_USER=princesharma74
+ENV MYSQL_PASSWORD=3P@Bmeera#
 ENV MYSQL_DATABASE=sync_notion
 
 # Copy your application files to the container
