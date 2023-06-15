@@ -1,19 +1,22 @@
 import mysql.connector
+import os
 
 class SQLClient:
     def __init__(self, host, username, password, database, port=3306):
-        self.host = host
-        self.username = username
-        self.password = password
-        self.database = database
+        # Get the values of Docker environment variables
+        self.host = os.environ.get('MYSQL_HOST')
+        self.port = os.environ.get('MYSQL_PORT')
+        self.user = os.environ.get('MYSQL_USER')
+        self.password = os.environ.get('MYSQL_PASSWORD')
+        self.database = os.environ.get('MYSQL_DATABASE')
+
         self.conn = None
         self.cursor = None
-        self.port = port
-
     def connect(self):
         self.conn = mysql.connector.connect(
             host=self.host,
-            user=self.username,
+            port=self.port,
+            user=self.user,
             password=self.password,
             database=self.database
         )
