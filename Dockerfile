@@ -13,7 +13,7 @@ RUN apt-get update && \
     pip install --upgrade google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2 bs4 emoji notion tqdm gspread oauth2client selenium pytz mysql-connector-python
 
 # Set environment variables for MySQL connection
-ENV MYSQL_HOST=host.docker.internal
+ENV MYSQL_HOST=172.25.81.163
 ENV MYSQL_PORT=3306
 ENV MYSQL_USER=root
 ENV MYSQL_PASSWORD=root
