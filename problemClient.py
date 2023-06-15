@@ -16,6 +16,7 @@ class ProblemClient:
         print('sqlClient connected')
         self.sqlClient.create_table('problems', {'name': 'VARCHAR(255) PRIMARY KEY', 'page_id': 'VARCHAR(255)'})
         self.sqlClient.create_table('members', {'scholar_number' : 'INT PRIMARY KEY', 'page_id': 'VARCHAR(255)'})
+        self.sqlClient.create_table('submissions', {'submission_id': 'INT PRIMARY KEY', 'page_id': 'VARCHAR(255)'})
 
     def close(self):
         print('sqlClient disconnected')
@@ -39,8 +40,15 @@ class Problem:
         
         # get page id of the member
         self.member_page_id = problem_client.sqlClient.get_page_id('members', 'scholar_number', scholar_number)
-        # create a submission page
-        problem_client.notionClient.create_page(database_id = problem_client.submission_database_id, icon='🖍️', Submission_ID=submission_id, Problem=[self.problem_page_id], Submission_Link=self.submission_link, Submitted_By=[self.member_page_id])
+
+        # update the submission id
+        if problem_client.sqlClient.get_page_id('submissions', 'submission_id', f"'{submission_id}'") is None:
+            # create a submission page
+            problem_client.notionClient.create_page(database_id = problem_client.submission_database_id, icon='🖍️', Submission_ID=submission_id, Problem=[self.problem_page_id], Submission_Link=self.submission_link, Submitted_By=[self.member_page_id])
+            problem_client.sqlClient.update_page_id('submissions', submission_id=f"'{submission_id}'", page_id=f"'{self.problem_page_id}'")
+        else:
+            # update the submission page
+            problem_client.notionClient.update_page(page_id=problem_client.sqlClient.get_page_id('submissions', 'submission_id', f"'{submission_id}'"), Submission_Link=self.submission_link, Submitted_By=[self.member_page_id])
 
     
     def __str__(self):
