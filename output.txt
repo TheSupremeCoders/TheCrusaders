@@ -1,106 +1,113 @@
-*DATE - 10/06/2023*
+*DATE - 15/06/2023*
 
-*kanchan kumari - 5 problems solved - ✅*
+*Komal - 6 problems solved - ✅*
+   _Leetcode_ - 6
+ ~ Sorting the Sentence
+ ~ Determine if String Halves Are Alike
+ ~ Count Items Matching a Rule
+ ~ Check If Two String Arrays are Equivalent
+ ~ Decrypt String from Alphabet to Integer Mapping
+ ~ To Lower Case
+-------------------------------
+*Gaurangi Puradkar - 4 problems solved - ✅*
    _Leetcode_ - 1
- ~ Valid Palindrome
+ ~ Top K Frequent Elements
+   _Codechef_ - 3
+ ~ CS2023_GYM
+ ~ CS2023_STK
+ ~ CS2023_GIFT
+-------------------------------
+*Aarti Kachhap - 4 problems solved - ✅*
    _Codechef_ - 4
- ~ JENGA
- ~ BIRDFARM
- ~ MOVIE2X
- ~ RANKLISTPAGE
+ ~ ACCURACY
+ ~ CS2023_GYM
+ ~ TODOLIST
+ ~ CS2023_GIFT
 -------------------------------
-*Saumya Agrawal - 4 problems solved - ✅*
-   _Leetcode_ - 3
- ~ Find All Numbers Disappeared in an Array
- ~ Reverse Words in a String III
- ~ Sqrt(x)
-   _Codechef_ - 1
- ~ LUCKYSTR
+*Vikash Yadav - 3 problems solved - ✅*
+   _Codechef_ - 3
+ ~ CS2023_GYM
+ ~ CS2023_STK
+ ~ CS2023_GIFT
 -------------------------------
-*Manish Kumar - 4 problems solved - ✅*
-   _Leetcode_ - 3
- ~ Reshape the Matrix
- ~ Set Matrix Zeroes
- ~ Arithmetic Subarrays
-   _Codeforces_ - 1
- ~ A - Multiplication Table
+*Shivam Gupta - 3 problems solved - ✅*
+   _Codechef_ - 3
+ ~ CS2023_STK
+ ~ VOWMTRX
+ ~ CS2023_PON
 -------------------------------
-*Prince Sharma - 3 problems solved - ✅*
-   _Codeforces_ - 3
- ~ D1 - Magic Powder - 1
- ~ B - Pipeline
- ~ B - Phoenix and Puzzle
+*Arnav Gupta - 3 problems solved - ✅*
+   _Codechef_ - 3
+ ~ CS2023_STK
+ ~ VOWMTRX
+ ~ CS2023_PON
 -------------------------------
-*Priyanka Sahu - 3 problems solved - ✅*
+*Saumya Agrawal - 3 problems solved - ✅*
    _Leetcode_ - 1
- ~ Summary Ranges
+ ~ To Lower Case
    _Codechef_ - 2
- ~ REMOSET
- ~ AVGPERM
+ ~ CS2023_GYM
+ ~ CS2023_STK
 -------------------------------
-*Prince Sharma - 3 problems solved - ✅*
-   _Codeforces_ - 3
- ~ D1 - Magic Powder - 1
- ~ B - Pipeline
- ~ B - Phoenix and Puzzle
+*Neeraj Meena - 3 problems solved - ✅*
+   _Codechef_ - 3
+ ~ FOURTICKETS
+ ~ LEARNSQL
+ ~ SIXFRIENDS
 -------------------------------
-*Deepankar singh - 2 problems solved - ✅*
-   _Leetcode_ - 2
- ~ Find Peak Element
- ~ Majority Element
--------------------------------
-*Gaurangi Puradkar - 2 problems solved - ✅*
-   _Leetcode_ - 2
- ~ Find Smallest Letter Greater Than Target
- ~ Find the Student that Will Replace the Chalk
+*Mayank Agrawal - 3 problems solved - ✅*
+   _Codechef_ - 3
+ ~ CS2023_GYM
+ ~ CS2023_STK
+ ~ CS2023_GIFT
 -------------------------------
 *Sohini Ghosh - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Is Subsequence
+ ~ Gray Code
 -------------------------------
 *Shreya Chaudhary - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Climbing Stairs
+ ~ Rearrange Array Elements by Sign
+-------------------------------
+*Aditya dubey - 1 problems solved - ✅*
+   _Leetcode_ - 1
+ ~ Sort an Array
 -------------------------------
 *Mahasweta Mondal - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Happy Number
+ ~ Replace All Digits with Characters
 -------------------------------
 *MOHIT AMAN - 1 problems solved - ✅*
-   _Codechef_ - 1
- ~ EVALMAS
--------------------------------
-*Mayank Agrawal - 1 problems solved - ✅*
-   _Codechef_ - 1
- ~ DISTANCECOLO
+   _Leetcode_ - 1
+ ~ Replace All Digits with Characters
 -------------------------------
 *Rohit - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Best Time to Buy and Sell Stock
+ ~ Rotate Image
 -------------------------------
-*Komal - 1 problems solved - ✅*
+*Kanika bhawsar - 1 problems solved - ✅*
    _Leetcode_ - 1
- ~ Intersection of Two Arrays II
+ ~ Kth Largest Element in a Stream
 -------------------------------
-*Vikash Yadav - ❌*
+*Prince Sharma - 1 problems solved - ✅*
+   _Codeforces_ - 1
+ ~ B - Two-gram
 -------------------------------
-*Shivam Gupta - ❌*
--------------------------------
-*Arnav Gupta - ❌*
+*kanchan kumari - 1 problems solved - ✅*
+   _Codechef_ - 1
+ ~ CS2023_GIFT
 -------------------------------
 *Chahat Gupta - ❌*
 -------------------------------
 *Shivam Anand Bhushan - ❌*
 -------------------------------
-*Aditya dubey - ❌*
--------------------------------
 *Seema - ❌*
 -------------------------------
 *Avishkant Patidar - ❌*
 -------------------------------
-*Neeraj Meena - ❌*
--------------------------------
 *kanchan rajpoot - ❌*
+-------------------------------
+*Deepankar singh - ❌*
 -------------------------------
 *Prashant Mishra - ❌*
 -------------------------------
@@ -114,19 +121,19 @@
 -------------------------------
 *Hima Bindu - ❌*
 -------------------------------
-*Kanika bhawsar - ❌*
--------------------------------
 *Abhishek Kumar - ❌*
+-------------------------------
+*Priyanka Sahu - ❌*
 -------------------------------
 *Barkha Gupta - ❌*
 -------------------------------
 *Ananya Rawat - ❌*
 -------------------------------
+*Manish Kumar - ❌*
+-------------------------------
 *PRIYANKA SONI - ❌*
 -------------------------------
 *Aman - ❌*
--------------------------------
-*Aarti Kachhap - ❌*
 -------------------------------
 *Achal Singh - ❌*
 -------------------------------
