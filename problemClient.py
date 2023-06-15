@@ -9,7 +9,7 @@ class ProblemClient:
         self.database_id = json.load(open('secret.json'))['databases']['problems']
         self.submission_database_id = json.load(open('secret.json'))['databases']['submissions']
 
-        self.sqlClient = SQLClient('localhost', 'root', 'root', 'sync_notion')
+        self.sqlClient = SQLClient('thesupremecoders', 'root', 'root', 'sync_notion')
         self.notionClient = NotionAPI(notion_token)
 
         self.sqlClient.connect()

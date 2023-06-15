@@ -1,13 +1,14 @@
 import mysql.connector
 
 class SQLClient:
-    def __init__(self, host, username, password, database):
+    def __init__(self, host, username, password, database, port=3306):
         self.host = host
         self.username = username
         self.password = password
         self.database = database
         self.conn = None
         self.cursor = None
+        self.port = port
 
     def connect(self):
         self.conn = mysql.connector.connect(
