@@ -9,7 +9,7 @@ integration_token = secret["notion_token"]
 database_id = secret['databases']['members']
 
 # create a SQL client
-sqlClient = SQLClient('localhost', 'root', 'root', 'sync_notion')
+sqlClient = SQLClient('thesupremecoders', 'root', 'root', 'sync_notion')
 sqlClient.connect()
 
 # sync the database with the data from the Google Sheet
