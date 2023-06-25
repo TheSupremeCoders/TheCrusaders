@@ -4,7 +4,7 @@ class problem:
         self.link = link
 
     def __str__(self):
-        return f'~ {self.name}'
+        return f'{self.name}'
     
     def html_str(self):
         return f'<a href="{self.link}">{self.name}</a>'
